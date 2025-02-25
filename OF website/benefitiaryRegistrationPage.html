@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficiary Registration – Oamogetswe Foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+    <style>
+        /* Define color variables */
+        :root {
+            --primary-color: #007BFF; /* Main brand color (e.g., blue) */
+            --secondary-color: #5CB85C; /* Secondary color (e.g., teal) */
+            --accent-color: #F0AD4E; /* Accent color (e.g., orange) */
+            --neutral-color: #F9F9F9; /* Light background color */
+            --dark-color: #333; /* Dark text color */
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--neutral-color);
+            color: var(--dark-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center; /* Center align the navigation */
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            text-align: center; /* Center align the header */
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Form styles */
+        .registration-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease; /* Add transition for shadow */
+        }
+
+        .registration-form:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+        }
+
+        .registration-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .registration-form input[type="text"],
+        .registration-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .registration-form input[type="submit"] {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transition for button */
+        }
+
+        .registration-form input[type="submit"]:hover {
+            background-color: #4cae4c; /* Darken on hover */
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%; /* Make container width responsive */
+            }
+
+            nav ul li {
+                display: block; /* Stack navigation links vertically on small screens */
+                margin: 10px 0; /* Add margin for spacing */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Oamogetswe Foundation</h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="registration">
+            <div class="container">
+                <h2>Beneficiary Registration</h2>
+                <p>Please fill out the form below to register as a beneficiary and request stationery support.</p>
+                
+                <div class="registration-form">
+                    <form action="add_beneficiary.php" method="post" novalidate>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required placeholder="Enter your name">
+
+                        <label for="description">Description:</label>
+                        <textarea name="description" id="description" required placeholder="Provide a brief description of your needs"></textarea>
+
+                        <label for="contact_info">Contact Info:</label>
+                        <input type="text" name="contact_info" id="contact_info" required placeholder="Enter your contact information">
+
+                        <input type="submit" value="Add Beneficiary">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oamogetswe Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,877 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+.main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+H2 {
+    Text-align: center;
+    Margin-bottom: 1rem;
+}
+
+.cta-button {
+    Display: inline-block;
+    Margin: 1rem 0.5rem;
+    Padding: 0.5rem 1rem;
+    Color: #fff;
+    Background: #007BFF;
+    Text-decoration: none;
+    Border-radius: 4px;
+}
+
+#intro {
+    Text-align: center;
+}
+
+.news-item, .event-item, .testimonial-item {
+    Background: #f9f9f9;
+    Margin: 1rem 0;
+    Padding: 1rem;
+    Border-radius: 4px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+
+
+Form {
+    Display: flex;
+    Flex-direction: column;
+}
+
+Label {
+    Margin-top: 0.5rem;
+}
+
+Input, textarea {
+    Padding: 0.5rem;
+    Margin-top: 0.5rem;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+}
+
+Button {
+    Margin-top: 1rem;
+    Padding: 0.5rem 1rem;
+    Background: #007BFF;
+    Color: #fff;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background: #0056b3;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+
+
+
+/*donate*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+H2, h3 {
+    Text-align: center;
+    Margin-bottom: 1rem;
+}
+
+.donation-options, .instructions {
+    Text-align: center;
+    Margin-bottom: 2rem;
+}
+
+
+.donation-form {
+    Max-width: 600px;
+    Margin: 0 auto;
+    Background: #a12727;
+    Padding: 2rem;
+    Border-radius: 8px;
+}
+
+
+.donation-form label {
+    Display: block;
+    Margin-bottom: 0.5rem;
+}
+
+.donation-form input {
+    Width: 100%;
+    Padding: 0.5rem;
+    Margin-bottom: 1rem;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+}
+
+
+
+#card-element {
+    Background: #fff;
+    Padding: 1rem;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+    Margin-bottom: 1rem;
+}
+
+Button {
+    Width: 100%;
+    Padding: 1rem;
+    Background: #007BFF;
+    Color: #fff;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background: #0056b3;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+/*benReg*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+H2 {
+    Text-align: center;
+    Margin-bottom: 1rem;
+}
+
+.registration-form {
+    Max-width: 600px;
+    Margin: 0 auto;
+    Background: #f9f9f9;
+    Padding: 2rem;
+    Border-radius: 8px;
+}
+
+.registration-form label {
+    Display: block;
+    Margin-bottom: 0.5rem;
+}
+
+.registration-form input,
+.registration-form textarea {
+    Width: 100%;
+    Padding: 0.5rem;
+    Margin-bottom: 1rem;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+}
+
+Button {
+    Width: 100%;
+    Padding: 1rem;
+    Background: #007BFF;
+    Color: #fff;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background: #0056b3;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+/*LoginAndRegistration*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+.auth-forms {
+    Display: flex;
+    Justify-content: space-around;
+    Align-items: flex-start;
+}
+
+.form-container {
+    Width: 45%;
+    Background: #f9f9f9;
+    Padding: 2rem;
+    Border-radius: 8px;
+}
+
+H2 {
+    Text-align: center;
+    Margin-bottom: 1rem;
+}
+
+Label {
+    Display: block;
+    Margin-bottom: 0.5rem;
+}
+
+Input {
+    Width: 100%;
+    Padding: 0.5rem;
+    Margin-bottom: 1rem;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+}
+
+Button {
+    Width: 100%;
+    Padding: 1rem;
+    Background: #007BFF;
+    Color: #fff;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background: #0056b3;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+/*contact us*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+H2, h3 {
+    Text-align: center;
+}
+
+.contact-info {
+    Text-align: center;
+    Margin-bottom: 2rem;
+}
+
+.contact-info p {
+    Margin: 0.5rem 0;
+}
+
+.contact-form {
+    Max-width: 600px;
+    Margin: 0 auto;
+    Background: #f9f9f9;
+    Padding: 2rem;
+    Border-radius: 8px;
+}
+
+Label {
+    Display: block;
+    Margin-bottom: 0.5rem;
+}
+
+Input, textarea {
+    Width: 100%;
+    Padding: 0.5rem;
+    Margin-bottom: 1rem;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+}
+
+Button {
+    Width: 100%;
+    Padding: 1rem;
+    Background: #007BFF;
+    Color: #fff;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background: #0056b3;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*dashboard*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*news*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+H2 {
+    Text-align: center;
+}
+
+#articles {
+    Display: flex;
+    Flex-wrap: wrap;
+    Gap: 2rem;
+}
+
+.article {
+    Background: #f9f9f9;
+    Border: 1px solid #ccc;
+    Padding: 1rem;
+    Border-radius: 8px;
+    Width: calc(33.333% - 2rem);
+}
+
+.article img {
+    Max-width: 100%;
+    Border-radius: 8px 8px 0 0;
+}
+
+.article h3 {
+    Margin: 0.5rem 0;
+}
+
+.article p {
+    Margin: 0.5rem 0;
+}
+
+.article a {
+    Display: inline-block;
+    Margin-top: 0.5rem;
+    Color: #007BFF;
+    Text-decoration: none;
+}
+
+.article a:hover {
+    Text-decoration: underline;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+
+
+/*FAQ*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+H2 {
+    Text-align: center;
+}
+
+.faq-item {
+    Margin-bottom: 1rem;
+    Border-bottom: 1px solid #ccc;
+}
+
+.faq-question {
+    Width: 100%;
+    Background: #007BFF;
+    Color: white;
+    Padding: 1rem;
+    Border: none;
+    Cursor: pointer;
+    Text-align: left;
+    Outline: none;
+    Font-size: 1.2rem;
+    Transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    Background: #0056b3;
+}
+
+.faq-answer {
+    Display: none;
+    Padding: 1rem;
+    Background: #f9f9f9;
+}
+
+.faq-answer p {
+    Margin: 0;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+
+

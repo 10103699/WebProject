@@ -1,0 +1,96 @@
+/*about us*/
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background: #333;
+    Color: #fff;
+    Padding: 1rem 0;
+}
+
+Header .container {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+}
+
+Nav li {
+    Margin-left: 1rem;
+}
+
+Nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 2rem 0;
+}
+
+Section {
+    Padding: 2rem 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+H2, h3 {
+    Text-align: center;
+    Margin-bottom: 1rem;
+}
+
+#about p, #mission-vision p, #contact-info p {
+    Text-align: center;
+    Margin: 0.5rem 0;
+}
+
+#mission-vision {
+    Display: flex;
+    Justify-content: space-around;
+    Flex-wrap: wrap;
+}
+
+.mission, .vision {
+    Flex: 1 1 45%;
+    Text-align: center;
+    Margin: 1rem;
+}
+
+.team-member {
+    Text-align: center;
+    Margin: 1rem 0;
+}
+
+.team-member img {
+    Width: 150px;
+    Height: 150px;
+    Border-radius: 50%;
+    Object-fit: cover;
+}
+
+Footer {
+    Background: #333;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1rem 0;
+}
+
+
+
+

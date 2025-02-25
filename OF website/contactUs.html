@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us – Oamogetswe Foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+    <style>
+        /* Define color variables */
+        :root {
+            --primary-color: #007BFF; /* Main brand color (e.g., blue) */
+            --secondary-color: #5CB85C; /* Secondary color (e.g., teal) */
+            --accent-color: #F0AD4E; /* Accent color (e.g., orange) */
+            --neutral-color: #F9F9F9; /* Light background color */
+            --dark-color: #333; /* Dark text color */
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--neutral-color);
+            color: var(--dark-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h2, h3 {
+            color: var(--secondary-color);
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Form styles */
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: darken(var(--secondary-color), 10%);
+        }
+
+        /* Contact Info styles */
+        .contact-info {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Oamogetswe Foundation</h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact-us">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, suggestions, or feedback, please feel free to reach out to us. We value your input!</p>
+
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" required></textarea>
+
+                        <input type="submit" value="Send Message">
+                    </form>
+                    <p id="responseMessage" style="display:none; color:green;">Message successfully sent!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Address:</strong> 70 Maifala St, Tlhabane West, Rustenburg, 0299</p>
+        <p><strong>Phone:</strong> <a href="tel:+27684587503">068 458 7503</a></p>
+        <p><strong>Email:</strong> <a href="mailto:oamogetswefoundation@gmail.com">oamogetswefoundation@gmail.com</a></p>
+        <p><strong>Follow Us:</strong>
+            <a href="https://www.instagram.com/oamogetswe_foundation/" target="_blank" rel="noopener">Instagram</a>,
+            <a href="https://www.tiktok.com/@oamogetswe_foundation" target="_blank" rel="noopener">TikTok</a>,
+            <a href="https://www.facebook.com/oamogetswe_foundation/" target="_blank" rel="noopener">Facebook</a>
+        </p>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oamogetswe Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Select the form and the response message element
+    const form = document.getElementById('contactForm');
+    const responseMessage = document.getElementById('responseMessage');
+
+    // Add an event listener to the form's submit event
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from actually submitting
+
+        // Optionally, validate the form inputs here if needed
+
+        // Show the response message
+        responseMessage.style.display = 'block';
+
+        // Clear the form inputs
+        form.reset();
+
+        // Hide the message after a delay (optional)
+        setTimeout(() => {
+            responseMessage.style.display = 'none';
+        }, 3000); // Adjust the delay as needed (3000ms = 3 seconds)
+    });
+    </script>
+</body>
+</html>
